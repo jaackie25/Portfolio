@@ -1,0 +1,34 @@
+.footer {
+  margin-top: 10%;
+    max-width: 100%;;
+    height: 250px;
+    background-color: #2B2F77;
+    background-image:  radial-gradient(
+    at center, #3498db, #9b59b6
+    );
+    display: flex;
+    justify-content: center;
+  }
+
+ 
+.footer h1 {
+ display: flex;
+ justify-content: center;
+ margin-bottom: 8%;
+}  
+
+.container a {
+  /* margin-top: 20px;  */
+  padding: 10px 20px;
+
+} 
+
+
+
+
+
+/* .title h3 {
+    background-color: pink;
+} */
+
+

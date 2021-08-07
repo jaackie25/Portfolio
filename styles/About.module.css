@@ -1,0 +1,105 @@
+.aboutContainer {
+    margin: 60px;
+    /* height: 100vh; */
+    max-width: 100%;
+    /* background-color: rgb(2,2,30); */
+    /* background-color: rgb(126, 126, 126); */
+}
+
+.content{
+    display: flex;
+}
+.profile {
+    flex-shrink: 1;
+    margin: 25px;
+    line-height:35px;
+    
+}
+
+.profile h3{
+    margin-top:25px;
+  
+}
+
+.profile h3:after {
+    content: " ";
+    border:1px solid;
+    border-image:linear-gradient(to right, #4158D0 0%, #C850C0 46%, #FFCC70 100%) 10;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    display: block;
+    max-width: 200px
+}
+
+
+.skills {
+    padding: 6rem 20rem;
+    text-align: center;
+    display:grid;
+    grid-template-columns:repeat(3, 1fr);
+    grid-template-rows: 350px;
+    margin: auto;
+  
+}
+
+.front {
+   border: 1px solid lightgrey;
+   border-radius: 5px;
+   margin: 0;
+}
+
+.front:hover {
+    -webkit-box-shadow: -1px 6px 19px 1px grey;
+    box-shadow: -1px 6px 19px 1px grey;
+}
+
+.front img {
+    width:12%;
+    height:12%;
+    margin-top: 10px;
+}
+
+.front h4 {
+    margin: 10px;
+
+}
+
+.front p {
+    margin: 8px;
+}
+
+
+
+
+/* flex-basis: auto; can be used when browser is smaller */
+
+
+
+@media only screen and (max-width: 1640px) {
+    .content {
+      left: 37%;
+    }
+  }
+  @media only screen and (max-width: 1330px) {
+    .content {
+        /* top: 145%; */
+        line-height: 20px;
+      }
+      .profile{
+          margin: 0;
+      }
+  }
+
+@media screen and (max-width: 930px) {
+    .content {
+        /* need to adjust and fix sizing for mobile */
+        /* top: 145%; */
+        line-height: 20px;
+      }
+      .profile{
+          margin: 0;
+          padding: 0;
+          justify-content: center;
+      }
+  }
+  
