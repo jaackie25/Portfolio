@@ -14,14 +14,14 @@ import {CopyToClipboard} from 'react-copy-to-clipboard';
 
 export default function Footer(){
 
-    const [isCopied, setIsCopied] = useState(false);
+    const [copy, setCopy] = useState(false);
  
    const email = "Jackiedinh91@gmail.com"
   
    const onCopyText = () => {
-    setIsCopied(true);
+    setCopy(true);
     setTimeout(() => {
-      setIsCopied(false);
+      setCopy(false);
     }, 1000);
   };
 
@@ -41,7 +41,7 @@ export default function Footer(){
             </Link>
          
                 <CopyToClipboard className={styles.copy} text={email} onCopy={onCopyText}>
-                    <a>{isCopied ? "Email has been Copied!" : <p><FontAwesomeIcon style={{marginRight: '3px', width:"20px"}} icon={faEnvelopeOpenText} />{email}</p>}</a>
+                    <a>{copy ? "Email has been Copied!" : <p><FontAwesomeIcon style={{marginRight: '3px', width:"20px"}} icon={faEnvelopeOpenText} />{email}</p>}</a>
                 </CopyToClipboard>
                 
              
