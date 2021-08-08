@@ -4,9 +4,13 @@ import styles from '../styles/Nav.module.css'
 export default function Nav(){
     return (
     <nav className={styles.nav}>
+        <div className={styles.home}>
         <Link href="/">
-            <a>JD</a>
+            <a >JD</a>
         </Link>
+        </div>
+        
+        <div className={styles.rest}>
         <Link href="#projects">
             <a>Projects</a>
         </Link>
@@ -16,9 +20,8 @@ export default function Nav(){
         <Link href="#footer">
             <a>Contact Me</a>
         </Link>
-        <Link href="/">
-            <a>Resume</a>
-        </Link>
+        </div>
+     
 
     </nav>
     )
