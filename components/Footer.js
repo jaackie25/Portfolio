@@ -29,7 +29,7 @@ export default function Footer(){
     <footer className={styles.footer}>  
     
         <div className={styles.container}>
-        <h1>Lets get in touch</h1>
+        <h1>Let's get in touch.</h1>
             <Link href="https://github.com/jaackie25">
                 <a> <FontAwesomeIcon style={{marginRight: '3px', width:"20px"}} icon={faGithub} />Jaackie25</a>
             </Link>
@@ -37,7 +37,7 @@ export default function Footer(){
                 <a><FontAwesomeIcon style={{marginRight: '3px', width:"20px"}} icon={faLinkedin} />Jacquelinedinh</a>
             </Link>
             <CopyToClipboard className={styles.copy} text={email} onCopy={onCopyText}>
-                    <a>{copy ? "Email has been Copied!" : <p><FontAwesomeIcon style={{marginRight: '3px', width:"20px"}} icon={faEnvelopeOpenText} />{email}</p>}</a>
+                    <a>{copy ? "Email has been copied to clipboard" : <p><FontAwesomeIcon style={{marginRight: '3px', width:"20px"}} icon={faEnvelopeOpenText} />{email}</p>}</a>
             </CopyToClipboard>
             <Link href="https://docs.google.com/document/d/1CMMmjgqnLxb7Kq04m9E_Dw28XlMhW0iRm6kJch5IPt4/edit?usp=sharing">
                 <a> <FontAwesomeIcon style={{marginRight: '3px', width:"20px"}} icon={faFileDownload} />Download Resume</a>
