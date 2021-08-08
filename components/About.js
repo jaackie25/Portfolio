@@ -1,5 +1,12 @@
 import styles from '../styles/About.module.css'
 import Image from 'next/image'
+import profile from '../public/profile.png'
+
+import { library } from '@fortawesome/fontawesome-svg-core';
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
+import { faLaptopCode, faDatabase, faPencilRuler} from '@fortawesome/free-solid-svg-icons';
+
 
 
 
@@ -20,7 +27,7 @@ export default function About(){
             <div  className={styles.content}>
                 
                 <div data-aos="fade-right"  className={styles.profile}>
-                    <img src="https://i.imgur.com/vA1HmRF.png" />
+                    <Image height={350} width={350} src={profile} alt="profile of author" />
                 </div>
             
              
@@ -47,7 +54,7 @@ export default function About(){
                
                 <div data-aos="fade-left" data-aos-duration="1000" className={styles.skills}>
                     <div className={styles.front} >
-                    <img src="https://i.imgur.com/7lV4mhl.png" />
+                    <FontAwesomeIcon style={{marginTop:"15px", width:"25px"}} icon={faLaptopCode} />
                     <h4>Front End/Templates</h4>
                     <p>
                     HTML 
@@ -75,7 +82,7 @@ export default function About(){
                     </p>
                     </div>
                     <div className={styles.front}>
-                    <img src="https://i.imgur.com/m4Db6Ab.png" />
+                    <FontAwesomeIcon style={{marginTop:"15px", width:"25px"}} icon={faDatabase} />
                     <h4> Back End</h4>
                     <p>
                     Node.js 
@@ -100,7 +107,7 @@ export default function About(){
                     </p>
                     </div>
                     <div className={styles.front}>
-                    <img src="https://i.imgur.com/x8YOZjD.png" />
+                    <FontAwesomeIcon style={{marginTop:"15px", width:"25px"}} icon={faPencilRuler} />
                     <h4>Dev Tools/Design Platforms</h4>
                     <p>
                     Github 

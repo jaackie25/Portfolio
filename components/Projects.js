@@ -2,6 +2,8 @@ import Link from 'next/link'
 import styles from '../styles/Projects.module.css'
 import Image from 'next/image'
 import gif from '../public/ezgif.com-gif-maker.gif'
+import p2 from '../public/p2portfolio.png'
+import p3 from '../public/p3mock.png'
 
 
 import { useEffect } from "react";
@@ -20,7 +22,7 @@ export default function Projects(){
         
             <div className={styles.container}>
 
-                <div className={styles.item} >
+                <div data-aos="zoom-in" className={styles.item} >
                     <div className={styles.content}>
                         <h2 className={styles.title}>Good Eats</h2>
                        
@@ -37,12 +39,12 @@ export default function Projects(){
                                 <a className={styles.item2}>LiveSite</a>
                             </Link>
                         </div>
-                            <img className={styles.img} src="https://i.imgur.com/mxmnKpN.png" alt="test" />
+                            <Image src={p2} alt="cooking recipe website. Has variety of images from website" />
                     </div>
                 </div>
 
                 <div className={styles.item} >
-                    <div className={styles.content}>
+                    <div data-aos="zoom-in" className={styles.content}>
                         <h2 className={styles.title}>Sailormoon Run</h2>
                         <p className={styles.descrip}>The game is an endless runner style game. The goal of the game is to run as far as possible and score as many points as you can. The player must press the up or down arrow to avoid obstacles, which include bats and trees.  </p>
                         <h5 className={styles.stack}> HTML | Javascript | CSS</h5>
@@ -54,13 +56,13 @@ export default function Projects(){
                                 <a className={styles.item2}>LiveSite</a>
                             </Link>
                         </div>
-                            <Image className='gif' src={gif} alt="test" />
+                            <Image className='gif' src={gif} alt="gif of gameplay of sailormoon endless runner" />
                     </div>
                  </div>
 
 
                 <div className={styles.item} >
-                    <div className={styles.content}>
+                    <div data-aos="zoom-in" className={styles.content}>
                         <h2 className={styles.title}>Totemize</h2>
                         <p className={styles.descrip}>This project was done during a hackathon collaboration with a group of software engineers and UI/UX designers. We created a mobile simulation app that allows individuals to find their friends at a specific event. The user and their friends can update their location.  </p>
                         <h5 className={styles.stack}>  Express | React | MongoDB | Mongoose | Axios | RESTful API | Bootstrap 4 </h5>
@@ -75,7 +77,7 @@ export default function Projects(){
                                 <a className={styles.item2}>LiveSite</a>
                             </Link>
                         </div>
-                            <img src="https://i.imgur.com/8dalG3d.png" alt="test" />
+                            <Image src={p3} alt="iphone display of application. Shows login, map, and register" />
                     </div>
                 </div>
 
