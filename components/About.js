@@ -1,6 +1,6 @@
 import styles from '../styles/About.module.css'
 import Image from 'next/image'
-import icon from '../public/icon.png'
+
 
 
 import { useEffect } from "react";

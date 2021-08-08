@@ -14,12 +14,16 @@
 .footer h1 {
  display: flex;
  justify-content: center;
- margin-bottom: 7%;
 }  
 
 .container a {
   padding: 10px 20px;
 } 
+
+.copy {
+  display: inline-block;
+  cursor: pointer;
+}
 
 .icon {
   padding: 10px;
