@@ -1,5 +1,3 @@
-import Head from 'next/head'
-import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 import Nav from '../components/Nav'
 import useInView from "react-cool-inview";
@@ -30,7 +28,6 @@ export default function Home() {
           <h1>Jacqueline Dinh</h1>
           <p>Full Stack Developer</p> 
           <p>I'll help bring your ideas to life</p>
-          {/* <button>DOWN ARROW or LINK to something</button> */}
         </div>
       </div>
     
