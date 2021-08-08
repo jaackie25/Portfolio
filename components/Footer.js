@@ -1,7 +1,12 @@
 import Link from 'next/link'
 import styles from '../styles/Footer.module.css'
-import {useRef, useState, useEffect } from 'react'
 
+import { library } from '@fortawesome/fontawesome-svg-core';
+
+// import your icons
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
+import { faEnvelopeOpenText, faFileDownload} from '@fortawesome/free-solid-svg-icons';
 
 export default function Footer(){
 
@@ -19,23 +24,20 @@ export default function Footer(){
     return (
        
     <footer className={styles.footer}>  
-             
+    
         <div className={styles.container}>
         <h1>Lets get in touch</h1>
             <Link href="https://github.com/jaackie25">
-                <a className={styles.link}>GITHUB</a>
+                <a> <FontAwesomeIcon style={{marginRight: '3px', width:"20px"}} icon={faGithub} />Jaackie25</a>
             </Link>
             <Link href="https://www.linkedin.com/in/jacquelinedinh/">
-                <a>LINKED</a>
+                <a><FontAwesomeIcon style={{marginRight: '3px', width:"20px"}} icon={faLinkedin} />Jacquelinedinh</a>
             </Link>
             <Link  href="/">
-                <a>Jackiedinh91@gmail.com</a>
+                <a><FontAwesomeIcon style={{marginRight: '3px', width:"20px"}} icon={faEnvelopeOpenText} />Jackiedinh91@gmail.com</a>
             </Link>
-            <Link href="/">
-                <a>Contact Me</a>
-            </Link>
-            <Link href="/">
-                <a>Resume</a>
+            <Link href="https://docs.google.com/document/d/1CMMmjgqnLxb7Kq04m9E_Dw28XlMhW0iRm6kJch5IPt4/edit?usp=sharing">
+                <a> <FontAwesomeIcon style={{marginRight: '3px', width:"20px"}} icon={faFileDownload} />Download Resume</a>
             </Link>
         </div>
      
@@ -62,6 +64,8 @@ export default function Footer(){
             </path>
             
         </svg> */}
+
+
 
     </footer>
         

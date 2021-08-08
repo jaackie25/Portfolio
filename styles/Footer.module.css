@@ -14,14 +14,16 @@
 .footer h1 {
  display: flex;
  justify-content: center;
- margin-bottom: 8%;
+ margin-bottom: 7%;
 }  
 
 .container a {
-  /* margin-top: 20px;  */
   padding: 10px 20px;
-
 } 
+
+.icon {
+  padding: 10px;
+}
 
 
 

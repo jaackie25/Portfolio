@@ -13,7 +13,7 @@ export default function Nav(){
         <Link href="#about">
             <a>About</a>
         </Link>
-        <Link href="/">
+        <Link href="#footer">
             <a>Contact Me</a>
         </Link>
         <Link href="/">

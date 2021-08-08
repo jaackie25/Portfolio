@@ -44,7 +44,7 @@ export default function Home() {
           {inView && <Projects />}
       </div>
     
-      <div className="footer" ref={observe}>
+      <div id="footer" ref={observe}>
         {inView && <Footer />}
       </div>
       
