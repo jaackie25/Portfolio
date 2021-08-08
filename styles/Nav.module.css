@@ -15,12 +15,21 @@
   color:white;
   font-weight: bolder;
   font-size: 30px;
- 
+}
+
+.home a:after {
+  content: " ";
+  border:1px solid;
+  border-image:linear-gradient(to right, #4158D0 0%, #C850C0 46%, #FFCC70 100%) 10;
+  margin-bottom: 15px;
+  display: block;
+  max-width: 100px;
 }
 
 .rest a {
   padding: 0 25px;
   color:white;
+  text-transform: uppercase;
+  font-weight: bold;
 }
-
 
