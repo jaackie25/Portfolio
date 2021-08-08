@@ -36,13 +36,14 @@ export default function Footer(){
             <Link href="https://www.linkedin.com/in/jacquelinedinh/">
                 <a><FontAwesomeIcon style={{marginRight: '3px', width:"20px"}} icon={faLinkedin} />Jacquelinedinh</a>
             </Link>
+            <CopyToClipboard className={styles.copy} text={email} onCopy={onCopyText}>
+                    <a>{copy ? "Email has been Copied!" : <p><FontAwesomeIcon style={{marginRight: '3px', width:"20px"}} icon={faEnvelopeOpenText} />{email}</p>}</a>
+            </CopyToClipboard>
             <Link href="https://docs.google.com/document/d/1CMMmjgqnLxb7Kq04m9E_Dw28XlMhW0iRm6kJch5IPt4/edit?usp=sharing">
                 <a> <FontAwesomeIcon style={{marginRight: '3px', width:"20px"}} icon={faFileDownload} />Download Resume</a>
             </Link>
          
-                <CopyToClipboard className={styles.copy} text={email} onCopy={onCopyText}>
-                    <a>{copy ? "Email has been Copied!" : <p><FontAwesomeIcon style={{marginRight: '3px', width:"20px"}} icon={faEnvelopeOpenText} />{email}</p>}</a>
-                </CopyToClipboard>
+               
                 
              
                

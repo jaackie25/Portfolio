@@ -10,16 +10,17 @@ const Projects = dynamic(() => import('../components/Projects'))
 
 
 export default function Home() {
-  const { observe, inView, scrollDirection, entry } = useInView({
-    onEnter: ({ scrollDirection, entry, observe, unobserve }) => {
+  const { observe, inView} = useInView({
+    onEnter: ({unobserve }) => {
       unobserve()
     },
   })
 
   return (
-    <div>
-      <Nav />
-      <div className={styles.container}>
+    <div className={styles.image}>
+     <Nav />
+       <div className={styles.container}>
+      
         <div className={styles.circle}>
         
           <h2>JD</h2>

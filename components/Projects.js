@@ -54,7 +54,7 @@ export default function Projects(){
                                 <a className={styles.item2}>LiveSite</a>
                             </Link>
                         </div>
-                            <Image src={gif} alt="test" />
+                            <Image className='gif' src={gif} alt="test" />
                     </div>
                  </div>
 
@@ -76,6 +76,7 @@ export default function Projects(){
                     </div>
                 </div>
 
+           
 
 
                 {/* <div data-aos="zoom-in" className={styles.item} className={styles.project2}>

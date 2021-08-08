@@ -46,7 +46,7 @@ export default function About(){
           
                
                 <div data-aos="fade-left" data-aos-duration="1000" className={styles.skills}>
-                    <div className={styles.front}>
+                    <div className={styles.front} >
                     <img src="https://i.imgur.com/7lV4mhl.png" />
                     <h4>Front End/Templates</h4>
                     <p>

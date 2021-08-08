@@ -29,6 +29,13 @@
     transition: opacity .40s ease-in-out;
     -moz-transition: opacity .40s ease-in-out;
     -webkit-transition: opacity .40s ease-in-out;
+    -webkit-box-shadow: 41px -37px 25px -25px rgba(255,79,79,0.98), 50px 35px 35px -25px #F8FF80, 12px 50px 32px -30px #6EFF80, -50px 50px 16px -30px #92F9FF, -33px -24px 50px -5px #9EBCFF, -42px -13px 50px -22px #A643FF, -29px -24px 19px -13px rgba(146,227,255,0.54), -29px -24px 19px -13px rgba(146,227,255,0.54); 
+    box-shadow: 41px -37px 25px -25px rgba(255,79,79,0.98), 50px 35px 35px -25px #F8FF80, 12px 50px 32px -30px #6EFF80, -50px 50px 16px -30px #92F9FF, -33px -24px 50px -5px #9EBCFF, -42px -13px 50px -22px #A643FF, -29px -24px 19px -13px rgba(146,227,255,0.54), -29px -24px 19px -13px rgba(146,227,255,0.54);
+}
+
+.content Image {
+    -webkit-box-shadow: 41px -37px 25px -25px rgba(255,79,79,0.98), 50px 35px 35px -25px #F8FF80, 12px 50px 32px -30px #6EFF80, -50px 50px 16px -30px #92F9FF, -33px -24px 50px -5px #9EBCFF, -42px -13px 50px -22px #A643FF, -29px -24px 19px -13px rgba(146,227,255,0.54), -29px -24px 19px -13px rgba(146,227,255,0.54); 
+box-shadow: 41px -37px 25px -25px rgba(255,79,79,0.98), 50px 35px 35px -25px #F8FF80, 12px 50px 32px -30px #6EFF80, -50px 50px 16px -30px #92F9FF, -33px -24px 50px -5px #9EBCFF, -42px -13px 50px -22px #A643FF, -29px -24px 19px -13px rgba(146,227,255,0.54), -29px -24px 19px -13px rgba(146,227,255,0.54);
 }
 
 .descrip {
@@ -108,5 +115,7 @@
 }  
 
 
-
+.title {
+    margin-bottom: 50px;
+}
 
