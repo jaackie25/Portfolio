@@ -1,5 +1,8 @@
 import Link from 'next/link'
 import styles from '../styles/Projects.module.css'
+import Image from 'next/image'
+import gif from '../public/ezgif.com-gif-maker.gif'
+
 
 import { useEffect } from "react";
 import 'aos/dist/aos.css'
@@ -51,7 +54,7 @@ export default function Projects(){
                                 <a className={styles.item2}>LiveSite</a>
                             </Link>
                         </div>
-                            <img src="https://i.imgur.com/1lIFHCS.png" alt="test" />
+                            <Image src={gif} alt="test" />
                     </div>
                  </div>
 
