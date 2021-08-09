@@ -39,11 +39,11 @@ export default function Projects(){
                                 <a className={styles.item2}>LiveSite</a>
                             </Link>
                         </div>
-                            <Image src={p2} alt="cooking recipe website. Has variety of images from website" />
+                            <Image src={p2} height={782} alt="cooking recipe website. Has variety of images from website" />
                     </div>
                 </div>
 
-                <div className={styles.item} >
+                {/* <div className={styles.item} >
                     <div  className={styles.content}>
                         <h2 className={styles.title}>Sailormoon Run</h2>
                         <p className={styles.descrip}>The game is an endless runner style game. The goal of the game is to run as far as possible and score as many points as you can. The player must press the up or down arrow to avoid obstacles, which include bats and trees.  </p>
@@ -58,7 +58,7 @@ export default function Projects(){
                         </div>
                             <Image className='gif' margin={0} src={gif} alt="gif of gameplay of sailormoon endless runner" />
                     </div>
-                 </div>
+                 </div> */}
 
 
                 <div className={styles.item} >
@@ -95,6 +95,23 @@ export default function Projects(){
                 </div> */}
 
             </div>
+
+            <div className={styles.item} >
+                    <div  className={styles.content}>
+                        <h2 className={styles.title}>Sailormoon Run</h2>
+                        <p className={styles.descrip}>The game is an endless runner style game. The goal of the game is to run as far as possible and score as many points as you can. The player must press the up or down arrow to avoid obstacles, which include bats and trees.  </p>
+                        <h5 className={styles.stack}> HTML | Javascript | CSS</h5>
+                        <div className={styles.link}>
+                            <Link href="https://github.com/jaackie25/Sailormoon-Run">
+                                <a>Github</a>
+                            </Link>
+                            <Link href="https://sailormoon-run.netlify.app/">
+                                <a className={styles.item2}>LiveSite</a>
+                            </Link>
+                        </div>
+                            <Image className='gif' margin={0} src={gif} alt="gif of gameplay of sailormoon endless runner" />
+                    </div>
+                 </div>
            
         </section>
     )
