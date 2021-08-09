@@ -17,11 +17,9 @@ export default function Projects(){
       },[])
 
     return(
-        <section className={styles.projects}>
+        <section className={styles.contain}>
             <h3 data-aos="fade-right">Projects</h3>
-        
             <div className={styles.container}>
-
                 <div  className={styles.item} >
                     <div className={styles.content}>
                         <h2 className={styles.title}>Good Eats</h2>
@@ -43,24 +41,6 @@ export default function Projects(){
                     </div>
                 </div>
 
-                {/* <div className={styles.item} >
-                    <div  className={styles.content}>
-                        <h2 className={styles.title}>Sailormoon Run</h2>
-                        <p className={styles.descrip}>The game is an endless runner style game. The goal of the game is to run as far as possible and score as many points as you can. The player must press the up or down arrow to avoid obstacles, which include bats and trees.  </p>
-                        <h5 className={styles.stack}> HTML | Javascript | CSS</h5>
-                        <div className={styles.link}>
-                            <Link href="https://github.com/jaackie25/Sailormoon-Run">
-                                <a>Github</a>
-                            </Link>
-                            <Link href="https://sailormoon-run.netlify.app/">
-                                <a className={styles.item2}>LiveSite</a>
-                            </Link>
-                        </div>
-                            <Image className='gif' margin={0} src={gif} alt="gif of gameplay of sailormoon endless runner" />
-                    </div>
-                 </div> */}
-
-
                 <div className={styles.item} >
                     <div  className={styles.content}>
                         <h2 className={styles.title}>Totemize</h2>
@@ -80,22 +60,7 @@ export default function Projects(){
                             <Image src={p3} alt="iphone display of application. Shows login, map, and register" />
                     </div>
                 </div>
-
-           
-
-
-                {/* <div data-aos="zoom-in" className={styles.item} className={styles.project2}>
-                    <p>Project 2 description</p>
-                    <img />
-                </div>
-
-                <div data-aos="zoom-in" className={styles.item} className={styles.project3}>
-                    <img />
-                    <p>Project 3 description</p>
-                </div> */}
-
             </div>
-
             <div className={styles.item} >
                     <div  className={styles.content}>
                         <h2 className={styles.title}>Sailormoon Run</h2>
@@ -112,7 +77,6 @@ export default function Projects(){
                             <Image className='gif' margin={0} src={gif} alt="gif of gameplay of sailormoon endless runner" />
                     </div>
                  </div>
-           
         </section>
     )
 } 

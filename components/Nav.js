@@ -21,9 +21,6 @@ export default function Nav(){
             <a>Contact Me</a>
         </Link>
         </div>
-     
-
     </nav>
     )
-
 }

@@ -4,7 +4,6 @@ import profile from '../public/profile.png'
 
 import { library } from '@fortawesome/fontawesome-svg-core';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 import { faLaptopCode, faDatabase, faPencilRuler} from '@fortawesome/free-solid-svg-icons';
 
 
@@ -23,7 +22,7 @@ export default function About(){
 
     return (
       
-        <div  className={styles.aboutContainer}>
+        <div className={styles.contain}>
             <div  className={styles.content}>
                 
                 <div data-aos="fade-right"  className={styles.profile}>
