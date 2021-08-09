@@ -22,7 +22,7 @@ export default function Projects(){
         
             <div className={styles.container}>
 
-                <div data-aos="zoom-in" className={styles.item} >
+                <div  className={styles.item} >
                     <div className={styles.content}>
                         <h2 className={styles.title}>Good Eats</h2>
                        
@@ -44,7 +44,7 @@ export default function Projects(){
                 </div>
 
                 <div className={styles.item} >
-                    <div data-aos="zoom-in" className={styles.content}>
+                    <div  className={styles.content}>
                         <h2 className={styles.title}>Sailormoon Run</h2>
                         <p className={styles.descrip}>The game is an endless runner style game. The goal of the game is to run as far as possible and score as many points as you can. The player must press the up or down arrow to avoid obstacles, which include bats and trees.  </p>
                         <h5 className={styles.stack}> HTML | Javascript | CSS</h5>
@@ -56,22 +56,22 @@ export default function Projects(){
                                 <a className={styles.item2}>LiveSite</a>
                             </Link>
                         </div>
-                            <Image className='gif' src={gif} alt="gif of gameplay of sailormoon endless runner" />
+                            <Image className='gif' margin={0} src={gif} alt="gif of gameplay of sailormoon endless runner" />
                     </div>
                  </div>
 
 
                 <div className={styles.item} >
-                    <div data-aos="zoom-in" className={styles.content}>
+                    <div  className={styles.content}>
                         <h2 className={styles.title}>Totemize</h2>
                         <p className={styles.descrip}>This project was done during a hackathon collaboration with a group of software engineers and UI/UX designers. We created a mobile simulation app that allows individuals to find their friends at a specific event. The user and their friends can update their location.  </p>
                         <h5 className={styles.stack}>  Express | React | MongoDB | Mongoose | Axios | RESTful API | Bootstrap 4 </h5>
                         <div className={styles.link}>
                             <Link href="https://github.com/jaackie25/Totemize-server">
-                                <a>Backend Code</a>
+                                <a>Backend</a>
                             </Link>
                             <Link href="https://github.com/jaackie25/Totemize-client">
-                                <a>Frontend Code</a>
+                                <a className={styles.item1}>Frontend</a>
                             </Link>
                             <Link href="https://friendly-sinoussi-f96db3.netlify.app/">
                                 <a className={styles.item2}>LiveSite</a>
