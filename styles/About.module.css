@@ -24,7 +24,7 @@
 
 
 .skills {
-    padding: 6rem 12rem;
+    padding: 6rem 21rem;
     text-align: center;
     display:grid;
     grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
