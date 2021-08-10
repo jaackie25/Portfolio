@@ -32,7 +32,7 @@ export default function About(){
              
                 <div data-aos="fade-right" className={styles.profile}>
                     <h3>
-                    I am a full-stack developer who is passionate about creating and designing beautiful and user-friendly applications
+                    I am a full-stack developer who is passionate about creating and designing beautiful and user-friendly applications.
                     </h3>
                 
                 
@@ -41,8 +41,8 @@ export default function About(){
                     I also enjoy the problem solving aspect of coding and the ability to create meaningful applications. 
                     </p>
                     <p>
-                    When I am not coding, you can find my either in the kitchen trying to recreate random recipes that I found on youtube, playing with my shiba(his name is deku), building mechnical keyboards, paddleboarding, snowboarding, 
-                    or travelling in search of breathe-taking sights and all the tasty dishes of the world. 
+                    When I am not coding, you can find me either in the kitchen trying to recreate random recipes that I found on youtube, playing with my shiba (his name is deku), building mechnical keyboards, paddleboarding, snowboarding, 
+                    or traveling in search of breathtaking sights and tasty dishes. 
                     </p>
                 </div>
                 
