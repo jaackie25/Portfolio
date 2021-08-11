@@ -39,7 +39,7 @@ export default function Footer(){
             <CopyToClipboard className={styles.copy} text={email} onCopy={onCopyText}>
                     <a>{copy ? "Email has been copied to clipboard" : <p><FontAwesomeIcon style={{marginRight: '3px', width:"20px"}} icon={faEnvelopeOpenText} />{email}</p>}</a>
             </CopyToClipboard>
-            <Link href="https://drive.google.com/file/d/15nS_6DqKyjil0uXPToXVKEDxUh21HYKt/view?usp=sharing">
+            <Link href="https://drive.google.com/file/d/1ecqD4DsHghpcjAyhGHBpWptHIV2w_Hsd/view?usp=sharing">
                 <a> <FontAwesomeIcon style={{marginRight: '3px', width:"20px"}} icon={faFileDownload} />Download Resume</a>
             </Link>    
         </div>
