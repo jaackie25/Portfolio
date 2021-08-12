@@ -31,13 +31,13 @@ export default function Footer(){
         <div className={styles.container}>
         <h1>Let's get in touch.</h1>
             <Link href="https://github.com/jaackie25">
-                <a> <FontAwesomeIcon style={{marginRight: '3px', width:"20px"}} icon={faGithub} />Jaackie25</a>
+                <a target="_blank"> <FontAwesomeIcon style={{marginRight: '3px', width:"20px"}} icon={faGithub} />Jaackie25</a>
             </Link>
             <Link href="https://www.linkedin.com/in/jacquelinedinh/">
-                <a><FontAwesomeIcon style={{marginRight: '3px', width:"20px"}} icon={faLinkedin} />Jacquelinedinh</a>
+                <a target="_blank" ><FontAwesomeIcon style={{marginRight: '3px', width:"20px"}} icon={faLinkedin} />Jacquelinedinh</a>
             </Link>
             <CopyToClipboard className={styles.copy} text={email} onCopy={onCopyText}>
-                    <a>{copy ? "Email has been copied to clipboard" : <p><FontAwesomeIcon style={{marginRight: '3px', width:"20px"}} icon={faEnvelopeOpenText} />{email}</p>}</a>
+                    <a target="_blank" >{copy ? "Email has been copied to clipboard" : <p><FontAwesomeIcon style={{marginRight: '3px', width:"20px"}} icon={faEnvelopeOpenText} />{email}</p>}</a>
             </CopyToClipboard>
             <Link href="https://drive.google.com/file/d/1ecqD4DsHghpcjAyhGHBpWptHIV2w_Hsd/view?usp=sharing">
                 <a target="_blank" > <FontAwesomeIcon style={{marginRight: '3px', width:"20px"}} icon={faFileDownload} />Download Resume</a>
