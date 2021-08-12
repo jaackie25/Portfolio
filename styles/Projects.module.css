@@ -29,18 +29,17 @@
     color:white;
 }
 
-.descrip a:hover {
-   text-decoration-line: underline;
+.item1 {
+    position: relative;
+    left: 50px;
 }
-
 .item2 {
     position: relative;
     left: 100px;
 }
 
-.item1 {
-    position: relative;
-    left: 50px;
+.descrip a:hover {
+   text-decoration-line: underline;
 }
 
 .content:hover .descrip {
@@ -63,61 +62,58 @@
 @media only screen and (max-width: 1670px) {
   .container {
       flex-direction: column;
-  }
+    }
   }
 
-  @media only screen and (max-width: 930px) {
+@media only screen and (max-width: 930px) {
     .container {
         flex-direction: column;
-    }
+        }
     .item {
         margin-left: 0;
         width: 100vw;
-    }
-    }
+        }
+}
 
-    @media only screen and (max-width: 855px) {
-        .contain {
-            flex-direction: column;
+@media only screen and (max-width: 855px) {
+    .contain {
+        flex-direction: column;
         }
-        .content {
-            margin:0;
-            width: 550px;
-            height: 350px;
-        }
-        .descrip {
-            font-size: 10px;
-            width: 50%;
-            margin: 90px 75px;
-            padding: 35px;
-        }
-        .contain h3{
-            text-align: center;
-        }
-        .contain h3:after{
-            margin: 15px auto;
-        }
+    .content {
+        margin:0;
+        width: 550px;
+        height: 350px;
+          }
+     .descrip {
+       font-size: 10px;
+       width: 50%;
+       margin: 90px 75px;
+       padding: 35px;
+     }
+     .contain h3{
+       text-align: center;
+     }
+     .contain h3:after{
+       margin: 15px auto;
+     }
+}
 
-        }
-
-
-        @media only screen and (max-width: 600px) {
-            .container {
-                flex-direction: column;
-            }
-            .content {
-                margin:0;
-                width: 350px;
-                height: 250px;
-            }
-            .descrip {
-                font-size: 10px;
-                width: 70%;
-                margin: 10px 50px;
-                padding:1rem;
-            }
-       
-            }
+@media only screen and (max-width: 600px) {
+  .container {
+     flex-direction: column;
+     }
+  .content {
+     margin:0;
+     width: 350px;
+     height: 250px;
+     }
+  .descrip {
+     font-size: 10px;
+     width: 70%;
+     margin: 10px 50px;
+     padding:1rem;
+     }
+ }
     
 
 

@@ -5,7 +5,7 @@
     background-color: #2B2F77;
     background-image:  radial-gradient(
     at center, #3498db, #9b59b6
-    );
+      );
     display: flex;
     justify-content: center;
   }

@@ -13,7 +13,6 @@ import Aos from 'aos';
 
 
 export default function About(){
-
     useEffect(() => {
         Aos.init({duration:2000})
       },[])
@@ -42,78 +41,40 @@ export default function About(){
 
          <h3 className="title" data-aos="fade-right">Skills</h3>
     
-        <div data-aos="fade-left" data-aos-duration="1000" className={styles.skills}>
-            <div className={styles.front} >
-                <FontAwesomeIcon style={{marginTop:"15px", width:"25px"}} icon={faLaptopCode} />
+    <div data-aos="fade-left" data-aos-duration="1000" className={styles.skills}>
+        <div className={styles.front} >
+            <FontAwesomeIcon style={{marginTop:"15px", width:"25px"}} icon={faLaptopCode} />
                 <h4>Front End/Templates</h4>
-                <p>
-                    HTML 
-                </p>
-                <p>
-                    CSS 
-                </p>
-                <p>
-                    Javascript 
-                </p>
-                <p>
-                   React.js 
-                </p>
-                <p>
-                    Next.js 
-                </p>
-                <p>
-                    Typescript
-                </p>
-                <p>
-                    EJS
-                </p>
-                <p>
-                    SASS
-                </p>
-            </div>
-            <div className={styles.front}>
-                <FontAwesomeIcon style={{marginTop:"15px", width:"25px"}} icon={faDatabase} />
+                    <p>HTML</p>
+                    <p>CSS</p>
+                    <p>Javascript</p>
+                    <p>React.js</p>
+                    <p>Next.js </p>
+                    <p>Typescript</p>
+                    <p>EJS</p>
+                    <p>SASS</p>
+        </div>
+
+        <div className={styles.front}>
+            <FontAwesomeIcon style={{marginTop:"15px", width:"25px"}} icon={faDatabase} />
                 <h4> Back End</h4>
-                <p>
-                    Node.js 
-                </p>
-                <p>
-                    Express.js 
-                </p>
-                <p>
-                    Python 
-                </p>
-                <p>
-                    PostgreSQL
-                </p>
-                <p>
-                    Sequlieze 
-                </p>
-                <p>
-                    MongoDB 
-                </p>
-                <p>
-                    Mongoose
-                </p>
-            </div>
-            <div className={styles.front}>
-                <FontAwesomeIcon style={{marginTop:"15px", width:"25px"}} icon={faPencilRuler} />
+                    <p>Node.js</p>
+                    <p>Express.js </p>
+                    <p>Python</p>
+                    <p>PostgreSQL</p>
+                    <p>Sequlieze</p>
+                    <p>MongoDB</p>
+                    <p>Mongoose</p>
+        </div>
+
+        <div className={styles.front}>
+            <FontAwesomeIcon style={{marginTop:"15px", width:"25px"}} icon={faPencilRuler} />
                 <h4>Dev Tools/Design Platforms</h4>
-                <p>
-                    Github 
-                </p>
-                <p>
-                    Heroku 
-                </p>
-                <p>
-                    Netlify 
-                </p>
-                <p>
-                    Adobe Lightroom
-                </p>
-                <p>
-                    Figma
-                </p>
+                    <p>Github</p>
+                    <p>Heroku</p>
+                    <p>Netlify </p>
+                    <p>Adobe Lightroom</p>
+                    <p>Figma</p>
             </div>
         </div>
     </div>
