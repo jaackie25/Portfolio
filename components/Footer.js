@@ -16,7 +16,7 @@ export default function Footer(){
 
     const [copy, setCopy] = useState(false);
  
-   const email = "Jackiedinh91@gmail.com"
+   const email = "jackiedinh91@gmail.com"
   
    const onCopyText = () => {
     setCopy(true);
