@@ -18,7 +18,7 @@ export default function About(){
       },[])
 
     return (
-    <div className={styles.contain}>
+    <div className="contain">
 
         <div  className={styles.content}>
             <div data-aos="fade-right"  className={styles.profile}>

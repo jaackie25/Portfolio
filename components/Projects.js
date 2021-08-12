@@ -17,8 +17,8 @@ export default function Projects(){
       },[])
 
     return(
-        <section className={styles.contain}>
-            
+        <section className="contain">
+
             <h3 className="title" data-aos="fade-right">Projects</h3>
                 <div className={styles.container}>
 
