@@ -34,11 +34,13 @@ export default function About(){
                     I also enjoy the problem solving aspect of coding and the ability to create meaningful applications. 
                 </p>
                 <p>
-                    When I am not coding, you can find me either in the kitchen trying to recreate random recipes that I found on youtube, playing with my shiba (his name is deku), building mechnical keyboards, paddleboarding, snowboarding, 
+                    When I am not coding, you can find me either in the kitchen trying to recreate random recipes that I found on youtube, playing with my shiba (his name is Deku), building mechnical keyboards, paddleboarding, snowboarding, 
                     or traveling in search of breathtaking sights and tasty dishes. 
                 </p>
             </div> 
          </div>
+
+         <h3 className="title" data-aos="fade-right">Skills</h3>
     
         <div data-aos="fade-left" data-aos-duration="1000" className={styles.skills}>
             <div className={styles.front} >

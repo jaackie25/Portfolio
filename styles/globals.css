@@ -17,7 +17,22 @@ a {
   box-sizing: border-box;
 }
 
-contain {
+.contain {
     max-width: 100%;
 }
 
+.title {
+  margin-left: 100px;
+  font-size: 30px;
+
+}
+
+.title:after {
+  content: " ";
+  border:1px solid;
+  border-image:linear-gradient(to right, #4158D0 0%, #C850C0 46%, #FFCC70 100%) 10;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  display: block;
+  max-width: 120px;
+}

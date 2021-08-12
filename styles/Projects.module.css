@@ -1,68 +1,36 @@
-.contain h3 {
-    margin-left: 100px;
-    font-size: 30px;
- 
+.item {
+    padding: 50px;
+    width: 1000px;
+    margin:auto;
+}  
+
+.container {
+    display:flex;
+    margin:auto;
 }
-
-.contain h3:after {
-    content: " ";
-    border:1px solid;
-    border-image:linear-gradient(to right, #4158D0 0%, #C850C0 46%, #FFCC70 100%) 10;
-    margin-top: 15px;
-    margin-bottom: 15px;
-    display: block;
-    max-width: 120px;
-}
-
-
 
 .content  {
-    margin: auto;
-    width: 800px;
-    height: 550px;
     position: relative;
-    border-radius: 15px;
     opacity: 1;
     transition: opacity .40s ease-in-out;
     -moz-transition: opacity .40s ease-in-out;
     -webkit-transition: opacity .40s ease-in-out;
 }
 
-
-
 .descrip {
-    border-radius: 25px;
+    border-radius: 15px;
     display: none;
     position: absolute;
-    background: rgba(0, 0, 0, .5);
+    background: rgba(0, 0, 0, .8);
     font-size: 17px;
     width: 50%;
     margin: 110px 110px;
     padding: 30px;
-    font-weight: bold;
     color:white;
-   
 }
 
-.stack {
-    display: none;
-    position: absolute;
-    font-size: 20px;
-    width: 50%;
-    margin-top: 280px;
-    padding: 30px;
-}
-
-.content h2 {
-    margin: 18px;
-}
-
-.link {
-    display: none;
-    position: absolute;
-    font-size: 17px;
-    width: 100%;
-    padding: 30px;
+.descrip a:hover {
+   text-decoration-line: underline;
 }
 
 .item2 {
@@ -79,44 +47,17 @@
     display: block;
     opacity: 1;
     width: 70%;
-    z-index: 1;
-    
-}
-
-.content:hover .stack {
-    display: block;
-    opacity: 1;
-    width: 70%;
-    z-index: 1;
-}
-
-.content:hover .link {
-    display: block;
-    opacity: 1;
-    width: 40%;
-    z-index: 1;
+    z-index: 1;  
 }
 
 .content:hover {
-    opacity: 0.8;
     transition: opacity .40s ease-in-out;
     -moz-transition: opacity .40s ease-in-out;
     -webkit-transition: opacity .40s ease-in-out;
     -webkit-box-shadow: 41px -37px 25px -25px rgba(255,79,79,0.98), 50px 35px 35px -25px #F8FF80, 12px 50px 32px -30px #6EFF80, -50px 50px 16px -30px #92F9FF, -33px -24px 50px -5px #9EBCFF, -42px -13px 50px -22px #A643FF, -29px -24px 19px -13px rgba(146,227,255,0.54), -29px -24px 19px -13px rgba(146,227,255,0.54); 
     box-shadow: 41px -37px 25px -25px rgba(255,79,79,0.98), 50px 35px 35px -25px #F8FF80, 12px 50px 32px -30px #6EFF80, -50px 50px 16px -30px #92F9FF, -33px -24px 50px -5px #9EBCFF, -42px -13px 50px -22px #A643FF, -29px -24px 19px -13px rgba(146,227,255,0.54), -29px -24px 19px -13px rgba(146,227,255,0.54);
-    
 }
 
-.item {
-    padding: 50px;
-    width: 1000px;
-    margin:auto;
-}  
-
-.container {
-    display:flex;
-    margin:auto;
-}
 
 
 @media only screen and (max-width: 1670px) {
@@ -147,15 +88,8 @@
         .descrip {
             font-size: 10px;
             width: 50%;
-            margin: 90px 110px;
-            padding: 30px;
-        }
-        .stack{
-            font-size: 15px;
-            width: 50%;
-            margin-top: 200px;
-            padding: 30px;
-
+            margin: 90px 75px;
+            padding: 35px;
         }
         .contain h3{
             text-align: center;
@@ -176,24 +110,13 @@
                 width: 350px;
                 height: 250px;
             }
-            .link{
-                width: 100%;
-                margin-top: 0;
-                /* padding: 30px;   */
-            }
             .descrip {
                 font-size: 10px;
-                width: 60%;
-                margin: 55px 50px;
-                /* padding: 30px; */
+                width: 70%;
+                margin: 10px 50px;
+                padding:1rem;
             }
-            .stack{
-                font-size: 8px;
-                width: 50%;
-                margin-top: 200px;
-                padding: 30px;
-    
-            }
+       
             }
     
 
