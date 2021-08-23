@@ -7,24 +7,22 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faLaptopCode, faDatabase, faPencilRuler} from '@fortawesome/free-solid-svg-icons';
 
 
-import { useEffect } from "react";
+
 import 'aos/dist/aos.css'
-import Aos from 'aos';
+
 
 
 export default function About(){
-    useEffect(() => {
-        Aos.init({duration:2000})
-      },[])
+ 
 
     return (
     <div className="contain">
 
         <div  className={styles.content}>
-            <div data-aos="fade-right"  className={styles.profile}>
+            <div className={styles.profile}>
                 <Image height={350} width={350} src={profile} alt="profile of author" />
             </div>
-            <div data-aos="fade-right" className={styles.profile}>
+            <div  className={styles.profile}>
                  <h3>
                     I am a full-stack developer who is passionate about creating and designing beautiful and user-friendly applications.
                 </h3>
@@ -39,9 +37,9 @@ export default function About(){
             </div> 
          </div>
 
-         <h3 className="title" data-aos="fade-right">Skills</h3>
+         <h3 className="title" >Skills</h3>
     
-    <div data-aos="fade-right" className={styles.skills}>
+    <div className={styles.skills}>
         <div className={styles.front} >
             <FontAwesomeIcon style={{marginTop:"15px", width:"25px"}} icon={faLaptopCode} />
                 <h4>Front End/Templates</h4>
