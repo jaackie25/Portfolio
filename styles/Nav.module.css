@@ -34,26 +34,15 @@
   font-weight: bold;
 }
 
-/* @media only screen and (max-width: 600px) {
-  .collapse{
-    cursor: pointer;
-  }
-  
-  .line {
-    width: 30px;
-    height: 3px;
-    background: white;
-    margin: 5px;
+@media only screen and (max-width: 600px) {
+  .nav .home {
+    font-size: 26px;
+    font-weight: bold;
   }
   .rest a {
-   position:absolute;
-   right:0px;
-   height: 50vh;
-   top: 8vh;
-   background-color: white;
-   color:black;
-   display: none;
+    padding: 0 10px;
+    font-weight: normal;
   }
 
-} */
+}
 
