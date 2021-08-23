@@ -36,7 +36,9 @@ export default function Projects(){
                                     <p> Good Eats is an online cookbook that allows the user to view recipes. The user can search by ingredient name or by recipe name. Users may also create an account that will allow them to create a list of their favorite recipes. <small>You do not have to register in order to view site</small> </p>   
                                     <p>Express | EJS | PostgreSQL | Sequelize | Axios | RESTful API | BootStrap </p>
                                 </div>
-                                <Image layout="responsive" src={p2} height={783} alt="cooking recipe website. Has variety of images from website" />
+                                <div className={styles.effect}>
+                                    <Image layout="responsive" src={p2} height={783} alt="cooking recipe website. Has variety of images from website" />
+                                </div>
                             </div>
                     </div>
 
@@ -56,7 +58,9 @@ export default function Projects(){
                                     <p>This project was done during a hackathon collaboration with a group of software engineers and UI/UX designers. We created a mobile simulation app that allows individuals to find their friends at a specific event. The user and their friends can update their location. </p>
                                     <p>Express | React | MongoDB | Mongoose | Axios | RESTful API | Bootstrap </p>
                                 </div>
-                                <Image layout="responsive" src={p3} alt="iphone display of application. Shows login, map, and register" />
+                                <div className={styles.effect}>
+                                    <Image layout="responsive" src={p3} alt="iphone display of application. Shows login, map, and register" />
+                                </div>
                             </div>
                     </div>
                 </div>
@@ -76,7 +80,9 @@ export default function Projects(){
                             </p>
                             <p> HTML | Javascript | CSS</p>
                         </div>
-                        <Image layout="responsive" src={gif} alt="gif of gameplay of sailormoon endless runner" />
+                        <div className={styles.effect}>
+                            <Image layout="responsive" src={gif} alt="gif of gameplay of sailormoon endless runner" />
+                        </div>
                     </div>
             </div>
 

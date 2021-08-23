@@ -17,7 +17,7 @@
 }  
 
 .container a {
-  padding: 10px 20px;
+  padding: 1rem 1rem;
 } 
 
 .copy {
@@ -29,4 +29,21 @@
   padding: 10px;
 }
 
+@media only screen and (max-width: 720px) {
+  .footer h1 {
+    margin-bottom: 5px;
+  }
+  .container {
+    display:grid;
+    margin: 0;
+  }
+
+  .container a {
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    
+  }
+}
+ 
 
