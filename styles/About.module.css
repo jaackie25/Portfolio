@@ -1,7 +1,6 @@
 .content {
     display: flex;
     margin: 1rem 3rem 6rem;
-
 }
 .profile {
     margin: 25px;
@@ -10,7 +9,6 @@
 
 .profile h3{
     margin-top:25px;
-  
 }
 
 .profile h3:after {
@@ -20,7 +18,7 @@
     margin-top: 15px;
     margin-bottom: 15px;
     display: block;
-    max-width: 200px
+    width: 200px
 }
 
 
@@ -30,7 +28,7 @@
     display:grid;
     grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
     grid-template-rows: 350px;
-    grid-auto-flow: dense;
+    /* grid-auto-flow: dense; */
     margin-bottom: 7rem;
 }
 

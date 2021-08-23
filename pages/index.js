@@ -15,12 +15,11 @@ export default function Home() {
   })
 
   return (
-    <div className={styles.image}>
+  <div className={styles.image}>
      <Nav />
-       <div className={styles.container}>
+    <div className={styles.homeContent}>
       
         <div className={styles.circle}>
-        
           <h2>JD</h2>
         </div>
         <div className={styles.content}>
@@ -29,7 +28,7 @@ export default function Home() {
           <p>Full Stack Developer</p> 
           <p>I'll help bring your ideas to life</p>
         </div>
-      </div>
+    </div>
     
       
       <div id="about" ref={observe}>
@@ -46,7 +45,7 @@ export default function Home() {
         {inView && <Footer />}
       </div>
       
-    </div>
+  </div>
   
   )
 }

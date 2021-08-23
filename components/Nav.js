@@ -4,10 +4,17 @@ import styles from '../styles/Nav.module.css'
 export default function Nav(){
     return (
     <nav className={styles.nav}>
+       
         <div className={styles.home}>
             <Link href="/">
                 <a >JD</a>
             </Link>
+        </div>
+
+        <div className={styles.collapse}>
+            <div className={styles.line}></div>
+            <div className={styles.line}></div>
+            <div className={styles.line}></div>
         </div>
         
         <div className={styles.rest}>

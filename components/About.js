@@ -41,7 +41,7 @@ export default function About(){
 
          <h3 className="title" data-aos="fade-right">Skills</h3>
     
-    <div data-aos="fade-left" data-aos-duration="1000" className={styles.skills}>
+    <div data-aos="fade-right" className={styles.skills}>
         <div className={styles.front} >
             <FontAwesomeIcon style={{marginTop:"15px", width:"25px"}} icon={faLaptopCode} />
                 <h4>Front End/Templates</h4>

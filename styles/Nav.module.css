@@ -1,5 +1,5 @@
 .nav {
-    max-width: 100%;;
+    width:100%;
     height: 46px;
  
     display: flex;
@@ -8,6 +8,7 @@
     padding: 25px;
 
     margin-top: 0;
+    
 } 
 
  .nav .home{
@@ -33,9 +34,26 @@
   font-weight: bold;
 }
 
-@media only screen and (max-width: 600px) {
-  .nav {
- 
+/* @media only screen and (max-width: 600px) {
+  .collapse{
+    cursor: pointer;
   }
-}
+  
+  .line {
+    width: 30px;
+    height: 3px;
+    background: white;
+    margin: 5px;
+  }
+  .rest a {
+   position:absolute;
+   right:0px;
+   height: 50vh;
+   top: 8vh;
+   background-color: white;
+   color:black;
+   display: none;
+  }
+
+} */
 
