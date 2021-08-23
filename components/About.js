@@ -19,10 +19,10 @@ export default function About(){
     <div className="contain">
 
         <div  className={styles.content}>
-            <div className={styles.profile}>
+            <div data-aos="fade-right"  className={styles.profile}>
                 <Image height={350} width={350} src={profile} alt="profile of author" />
             </div>
-            <div  className={styles.profile}>
+            <div data-aos="fade-right" className={styles.profile}>
                  <h3>
                     I am a full-stack developer who is passionate about creating and designing beautiful and user-friendly applications.
                 </h3>
@@ -37,9 +37,9 @@ export default function About(){
             </div> 
          </div>
 
-         <h3 className="title" >Skills</h3>
+         <h3 className="title" data-aos="fade-right">Skills</h3>
     
-    <div className={styles.skills}>
+    <div data-aos="fade-right" className={styles.skills}>
         <div className={styles.front} >
             <FontAwesomeIcon style={{marginTop:"15px", width:"25px"}} icon={faLaptopCode} />
                 <h4>Front End/Templates</h4>
