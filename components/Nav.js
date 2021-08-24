@@ -44,20 +44,22 @@ export default function Nav(){
         <style jsx>{`
         @media only screen and (max-width: 640px) {
          .menu {
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            height: 90vh;
             position: absolute;
             top: 80px;
-            right: -100%;
+            left: -100%;
             opacity: 1;
-           
           }
           .active {
-            border-radius: 50%;
             margin: 10rem 1.2rem 0 0;
             height: 150px;
             width: 150px;
             opacity: 1;
             text-align: center;
-            right: 10%;
+            left: 0;
             z-index: 1;
           }
         }
