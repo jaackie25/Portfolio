@@ -62,10 +62,7 @@ export default function Nav(){
             left: 0;
             z-index: 1;
           }
-          .anchor:hover {
-            border-bottom: 4px solid #fff;
-            transition: all 0.2s ease-out;
-          }
+        
         }
       `}</style>
     </nav>

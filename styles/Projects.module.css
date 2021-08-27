@@ -61,7 +61,7 @@
 
 
 
-@media only screen and (min-width: 1670px) {
+@media (min-width: 1670px) {
     .container {
         display:flex;
         margin:auto;
@@ -76,7 +76,7 @@
         }
 }
 
-@media only screen and (max-width: 855px) {
+@media  (max-width: 855px) {
      .descrip {
        font-size: 10px;
        width: 50%;
@@ -91,23 +91,26 @@
      }
 }
 
-@media only screen and (max-width: 600px) {
+@media (max-width: 630px) {
   .descrip {
-     font-size: 10px;
+     font-size: 12px;
      width: 70%;
-     margin: 10px 50px;
+     margin: 5rem 5rem;
      padding:1rem;
      }
  }
 
- @media only screen and (max-width: 530px) {
+ @media (max-width: 560px) {
     .descrip {
-       font-size: 10px;
-       width: 70%;
-       margin: 10px 50px;
-       padding:1rem;
+      margin: 1rem 3.5rem;
        }
    }
 
+@media (max-width: 500px){
+  .descrip{
+    padding: 0 1rem;
+    margin: 0.5rem 3.5rem;
 
+  }
+}
 
