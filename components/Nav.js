@@ -67,3 +67,30 @@ export default function Nav(){
     </nav>
     )
 }
+
+
+// @media only screen and (max-width: 640px) {
+//     .menu {
+//        display: flex;
+//        flex-direction: column;
+//        width: 100%;
+//        height: 90vh;
+//        position: absolute;
+//        top: 80px;
+//        left: -100%;
+//        opacity: 1;
+//      }
+//      .active {
+//        margin: 10rem 1.2rem 0 0;
+//        height: 150px;
+//        width: 150px;
+//        opacity: 1;
+//        text-align: center;
+//        left: 0;
+//        z-index: 1;
+//      }
+//    }
+
+{/* <div>
+{on ? <FontAwesomeIcon style={{color:"white"}} icon={faTimes}/> : <FontAwesomeIcon style={{color:"white"}} icon={faBars} />}
+</div> */}
