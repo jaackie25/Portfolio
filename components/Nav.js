@@ -54,13 +54,17 @@ export default function Nav(){
             opacity: 1;
           }
           .active {
-            margin: 10rem 1.2rem 0 0;
+            margin: 7.3rem 1.5rem 0 0;
             height: 150px;
             width: 150px;
             opacity: 1;
             text-align: center;
             left: 0;
             z-index: 1;
+          }
+          .anchor:hover {
+            border-bottom: 4px solid #fff;
+            transition: all 0.2s ease-out;
           }
         }
       `}</style>

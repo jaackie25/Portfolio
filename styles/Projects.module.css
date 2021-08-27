@@ -1,14 +1,8 @@
-
 .item {
     padding: 50px;
     width: 1000px;
     margin:auto;
 }  
-
-.container {
-    display:flex;
-    margin:auto;
-}
 
 .content  {
     position: relative;
@@ -50,6 +44,13 @@
     z-index: 1;  
 }
 
+.effect {
+    max-height: 100%;
+  min-width: 100%;
+  object-fit: cover;
+
+}
+
 .effect:hover {
     transition: opacity .40s ease-in-out;
     -moz-transition: opacity .40s ease-in-out;
@@ -60,16 +61,15 @@
 
 
 
-@media only screen and (max-width: 1670px) {
-  .container {
-      flex-direction: column;
+@media only screen and (min-width: 1670px) {
+    .container {
+        display:flex;
+        margin:auto;
+        flex-shrink: 1;
     }
   }
 
 @media only screen and (max-width: 930px) {
-    .container {
-        flex-direction: column;
-        }
     .item {
         margin-left: 0;
         width: 100vw;
@@ -77,14 +77,6 @@
 }
 
 @media only screen and (max-width: 855px) {
-    .contain {
-        flex-direction: column;
-        }
-    .content {
-        margin:0;
-        width: 550px;
-        height: 350px;
-          }
      .descrip {
        font-size: 10px;
        width: 50%;
@@ -100,14 +92,6 @@
 }
 
 @media only screen and (max-width: 600px) {
-  .container {
-     flex-direction: column;
-     }
-  .content {
-     margin:0;
-     width: 450px;
-     height: 250px;
-     }
   .descrip {
      font-size: 10px;
      width: 70%;
@@ -117,11 +101,6 @@
  }
 
  @media only screen and (max-width: 530px) {
-    .content {
-       margin:0;
-       width: 350px;
-       height: 250px;
-       }
     .descrip {
        font-size: 10px;
        width: 70%;

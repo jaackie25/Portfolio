@@ -17,12 +17,8 @@ a {
   box-sizing: border-box;
 }
 
-/* .contain {
-    box-sizing: border-box;
-} */
-
 .title {
-  margin-left: 100px;
+  margin-left: 45px;
   font-size: 30px;
 }
 
@@ -36,8 +32,3 @@ a {
   width: 120px;
 }
 
-@media only screen and (max-width: 815px) {
-  .title {
-    margin-left: 45px;
-  }
-  }
