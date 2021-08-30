@@ -23,6 +23,9 @@
     padding: 30px;
     color:white;
 }
+.descrip a:hover {
+  text-decoration: underline;
+}
 
 .item1 {
     position: relative;
