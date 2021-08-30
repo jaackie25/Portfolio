@@ -6,7 +6,7 @@
     background-image:  radial-gradient(
     at center, #3498db, #9b59b6
       );
-    position: sticky;
+ 
     display: flex;
     justify-content: center;
   }
