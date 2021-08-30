@@ -114,3 +114,21 @@
   }
 }
 
+@media (max-width: 375px){
+  .descrip{
+    font-size: 10px;
+    padding: 0;
+    margin: 0 3rem;
+    width: 100%;
+
+  }
+  .item1{
+    position: relative;
+    left:33px;
+  }
+  .item2{
+    position: relative;
+    left:60px;
+  }
+}
+
